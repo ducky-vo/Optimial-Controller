@@ -1,11 +1,11 @@
 /**
- * @file pid_controller.h
- * @author duckstarr
+ * @file PID.h
+ * @author lsvng
  * @brief PID Controller.
  */
 
-#ifndef PID_CONTROLLER_H
-#define PID_CONTROLLER_H
+#ifndef PID_H
+#define PID_H
 
 #include <vector>
 
@@ -66,4 +66,4 @@ class PID
 
 } // namespace controller
 
-#endif /* PID_CONTROLLER_H */
+#endif /* PID_H */

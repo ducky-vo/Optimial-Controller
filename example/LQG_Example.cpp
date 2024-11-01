@@ -17,7 +17,7 @@
  * ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
  */
 
-#include <LQG.hpp>
+#include <LQG.h>
 #include <memory>
 #include <Eigen/Dense>
 #include <iostream>

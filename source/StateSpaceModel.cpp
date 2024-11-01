@@ -5,7 +5,7 @@
  * 
  */
 
-#include <StateSpaceModel.hpp>
+#include <StateSpaceModel.h>
 #include <unsupported/Eigen/MatrixFunctions>
 
 namespace Optimal_Controller

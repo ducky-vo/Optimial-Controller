@@ -1,11 +1,11 @@
 /**
  * @file LQG.cpp
- * @author duckstarr
+ * @author lsvng
  * @brief Linear–quadratic–Gaussian control
  * 
  */
 
-#include <LQG.hpp>
+#include <LQG.h>
 #include <Eigen/Dense>
 
 using namespace Optimal_Controller;

@@ -6,7 +6,7 @@
  */
 
 #include <gtest/gtest.h>
-#include <PID.hpp>
+#include <PID.h>
 
 using namespace Optimal_Controller;
 

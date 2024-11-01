@@ -1,12 +1,12 @@
 /**
- * @file FuzzyLogic.hpp
- * @author duckstarr
+ * @file FuzzyLogic.h
+ * @author lsvng
  * @brief Fuzzy logic controller
  * 
  */
 
-#ifndef FUZZYLOGIC_HPP
-#define FUZZYLOGIC_HPP
+#ifndef FUZZYLOGIC_H
+#define FUZZYLOGIC_H
 
 namespace Optimal_Controller
 {
@@ -148,4 +148,4 @@ namespace Optimal_Controller
   };
 }
 
-#endif /* FUZZYLOGIC_HPP */
+#endif /* FUZZYLOGIC_H */

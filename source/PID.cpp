@@ -1,11 +1,11 @@
 /**
  * @file pid_controller.cpp
- * @author duckstarr
+ * @author lsvng
  * @brief PID Controller Lib.
  * 
  */
 
-#include <PID.hpp>
+#include <PID.h>
 #include <chrono>
 
 using namespace Optimal_Controller;

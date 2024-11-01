@@ -17,7 +17,7 @@
  * ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
  */
 
-#include <FuzzyLogic.hpp>
+#include <FuzzyLogic.h>
 #include <memory>
 #include <iostream>
 

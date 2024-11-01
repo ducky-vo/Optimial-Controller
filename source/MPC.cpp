@@ -1,11 +1,11 @@
 /**
  * @file MPC.cpp
- * @author duckstarr
+ * @author lsvng
  * @brief Finite-horizon Model Predictive Controller
  * 
  */
 
-#include <MPC.hpp>
+#include <MPC.h>
 #include <Eigen/Dense>
 
 using namespace Optimal_Controller;

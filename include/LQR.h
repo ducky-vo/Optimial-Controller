@@ -1,15 +1,15 @@
 /**
- * @file LQR.hpp
- * @author duckstarr
+ * @file LQR.h
+ * @author lsvng
  * @brief Infinite-horizon Linear Quadratic Regulator
  * 
  */
 
-#ifndef LQR_HPP
-#define LQR_HPP
+#ifndef LQR_H
+#define LQR_H
 
 #include <Eigen/Dense>
-#include <StateSpaceModel.hpp>
+#include <StateSpaceModel.h>
 
 namespace Optimal_Controller
 {
@@ -102,4 +102,4 @@ class LQR
 
 } // namespace controller
 
-#endif /* LQR_HPP */
+#endif /* LQR_H */

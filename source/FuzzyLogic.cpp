@@ -1,11 +1,11 @@
 /**
  * @file FuzzyLogic.cpp
- * @author duckstarr
+ * @author lsvng
  * @brief Fuzzy logic controller
  * 
  */
 
-#include <FuzzyLogic.hpp>
+#include <FuzzyLogic.h>
 #include <algorithm>
 #include <iostream>
 

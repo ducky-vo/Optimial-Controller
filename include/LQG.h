@@ -1,15 +1,15 @@
 /**
- * @file LQG.hpp
- * @author duckstarr
+ * @file LQG.h
+ * @author lsvng
  * @brief Linear–quadratic–Gaussian control
  * 
  */
 
-#ifndef LQG_HPP
-#define LQG_HPP
+#ifndef LQG_H
+#define LQG_H
 
 #include <Eigen/Dense>
-#include <StateSpaceModel.hpp>
+#include <StateSpaceModel.h>
 
 namespace Optimal_Controller
 {
@@ -88,4 +88,4 @@ namespace Optimal_Controller
   };
 }
 
-#endif /* LQG_HPP */
+#endif /* LQG_H */

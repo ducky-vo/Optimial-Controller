@@ -1,11 +1,11 @@
 /**
  * @file LQR.cpp
- * @author duckstarr
+ * @author lsvng
  * @brief Infinite-horizon Linear Quadratic Regulator
  * 
  */
 
-#include <LQR.hpp>
+#include <LQR.h>
 #include <Eigen/Dense>
 
 using namespace Optimal_Controller;

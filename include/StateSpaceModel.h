@@ -1,14 +1,15 @@
 /**
- * @file StateSpaceModel.hpp
- * @author duckstarr
+ * @file StateSpaceModel.h
+ * @author lsvng
  * @brief State Space Model
  * 
  */
 
-#ifndef STATESPACEMODEL_HPP
-#define STATESPACEMODEL_HPP
+#ifndef STATESPACEMODEL_H
+#define STATESPACEMODEL_H
 
 #include <Eigen/Dense>
+#include <Matrix.h>
 
 namespace Optimal_Controller
 {
@@ -86,4 +87,4 @@ namespace Optimal_Controller
   };
 }
 
-#endif // STATESPACEMODEL_HPP
+#endif // STATESPACEMODEL_H

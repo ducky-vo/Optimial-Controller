@@ -1,15 +1,15 @@
 /**
- * @file MPC.hpp
- * @author duckstarr
+ * @file MPC.h
+ * @author lsvng
  * @brief Finite-horizon Model Predictive Controller
  * 
  */
 
-#ifndef MPC_HPP
-#define MPC_HPP
+#ifndef MPC_H
+#define MPC_H
 
 #include <Eigen/Dense>
-#include <StateSpaceModel.hpp>
+#include <StateSpaceModel.h>
 
 namespace Optimal_Controller
 {
@@ -118,4 +118,4 @@ namespace Optimal_Controller
 
 } // namespace controller
 
-#endif /* MPC_HPP */
+#endif /* MPC_H */
