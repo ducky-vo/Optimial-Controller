@@ -97,6 +97,38 @@ namespace Optimal_Controller
       }
 
       /**
+       * @brief Block from the matrix
+       * 
+       * @param w_row_start 
+       * @param w_col_start 
+       * @param w_row_size 
+       * @param w_col_size 
+       * @return Matrix<T> 
+       */
+      Matrix<T> block(size_t w_row_start, size_t w_col_start, size_t w_row_size, size_t w_col_size) const
+      {
+        // Check if the block dimensions are valid
+        if (w_row_start + w_row_size > m_rows || w_col_start + w_col_size > m_cols)
+        {
+          throw std::out_of_range("Requested block is out of matrix bounds.");
+        }
+
+        // Create a matrix to store the block
+        Matrix<T> w_result(w_row_size, w_col_size);
+
+        // Fill the block matrix with appropriate values
+        for (size_t i = 0; i < w_row_size; ++i)
+        {
+          for (size_t j = 0; j < w_col_size; ++j)
+          {
+            w_result(i, j) = (*this)(w_row_start + i, w_col_start + j);
+          }
+        }
+
+        return w_result;
+      }
+
+      /**
        * @brief Matrix Multiplication
        * 
        * @param i_other 
